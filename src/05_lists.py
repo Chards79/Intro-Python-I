@@ -34,3 +34,6 @@ print(len(x))
 # YOUR CODE HERE
 multiplied_list = [element * 1000 for element in x]
 print(multiplied_list)
+
+for element in x:
+    print(element * 1000)
